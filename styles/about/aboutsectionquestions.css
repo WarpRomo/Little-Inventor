@@ -7,15 +7,17 @@
   background: #ffffff29;
   border: solid 2px #ffffff3b;
   padding-top: 30px;
+  padding-bottom: 10px;
   border-radius: 45px;
   margin: 15px;
+  box-shadow: 0px 0px 15px white;
 }
 
 .aboutsectionpart{
   display: flex;
   align-items: center;
   justify-content: left;
-  margin-top: 50px;
+  margin-top: 16px;
   max-width: 1200px;
 }
 
@@ -55,4 +57,5 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 50px;
 }
