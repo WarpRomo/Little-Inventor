@@ -87,6 +87,7 @@
   height: 1300px;
   right: -210px;
   user-select: none;
+  filter: blur(5px);
 }
 
 #hennadesign2{
@@ -96,4 +97,5 @@
   left: -210px;
   transform: rotate(150deg);
   user-select: none;
+  filter: blur(5px);
 }
