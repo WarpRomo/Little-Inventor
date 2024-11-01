@@ -1,14 +1,5 @@
 
 
-#signature{
-  text-align: center;
-  font-family: 'Creation';
-  font-size: var(--hugetext);
-  color: white;
-  opacity: 0.4;
-  width: 100%;
-}
-
 @keyframes updown {
   from {
     position: relative;
