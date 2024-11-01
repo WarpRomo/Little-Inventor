@@ -1,0 +1,51 @@
+#sponsortypes{
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sponsortype{
+  margin: 20px;
+  width: 40%;
+  background: rgba(255,255,255,0.1);
+  border-radius: 25px;
+  border: solid 2px rgba(255,255,255,0.15);
+  padding: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .sponsortype{
+    width: 100%;
+    min-width: 310px;
+  }
+}
+
+
+.sponsortype > h1{
+  font-size: var(--mediumtext);
+  font-family: 'Montoserrat';
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-shadow: 0 0 20px white;
+}
+
+.sponsortype > h2{
+  color: lime;
+  text-align: center;
+  font-family: 'Montoserrat';
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.sponsortype > p{
+  font-size: var(--smalltext);
+  font-family: 'Montoserrat';
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}

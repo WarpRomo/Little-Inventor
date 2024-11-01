@@ -1,0 +1,76 @@
+
+
+#donationimage{
+  box-shadow: 0px 0px 20px white;
+  border: solid 10px white;
+  width: 40%;
+  min-width: 300px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#donationtypes{
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#donationtitle{
+  font-size: var(--biggertext);
+  text-align: center;
+  font-family: "Montoserrat";
+  margin-top: 80px;
+  text-shadow: 0px 0px 20px white;
+  margin-bottom: 0px;
+  margin-bottom: 5px;
+}
+#donationdesc{
+  font-size: var(--bigtext);
+  text-align: center;
+  font-family: "Montoserrat";
+  text-shadow: 0px 0px 20px black;
+  margin-top: 70px;
+  position: relative;
+  width: 90%;
+  left: 5%;
+}
+
+.donationtype{
+  margin: 20px;
+  width: 40%;
+  background: rgba(255,255,255,0.1);
+  border-radius: 25px;
+  border: solid 2px rgba(255,255,255,0.15);
+  padding: 20px;
+}
+
+.donationtype > h1{
+  font-size: var(--mediumtext);
+  font-family: 'Montoserrat';
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-shadow: 0 0 20px white;
+}
+
+.donationtype > p{
+  font-size: var(--smalltext);
+  font-family: 'Montoserrat';
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .donationtype{
+    width: 100%;
+    min-width: 310px;
+  }
+}

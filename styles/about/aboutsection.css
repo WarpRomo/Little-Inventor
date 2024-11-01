@@ -1,0 +1,71 @@
+
+
+#signature{
+  text-align: center;
+  font-family: 'Creation';
+  font-size: var(--hugetext);
+  color: white;
+  opacity: 0.4;
+  width: 100%;
+}
+
+@keyframes updown {
+  from {
+    position: relative;
+    bottom: 0%;
+  }
+
+  to {
+    position: relative;
+    bottom: 0%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutsectionpart{
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+
+  .aboutsectioninner{
+    flex-direction: column !important;
+    margin-left: 0px !important;
+    width: 90%;
+    margin: 0px !important;
+  }
+
+  .aboutsectionparttitlecont{
+    border-right: none !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px;
+    height: 45px !important;
+  }
+
+  .aboutsectionpartdesccont{
+    font-size: 20px !important;
+  }
+
+  .aboutsectionparttitlecont > h1{
+    margin-right: 0px !important;
+  }
+
+  .aboutsectionpartdesccont{
+    text-align:center;
+  }
+
+  #whatarewephoto{
+    margin: 40px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  #joingrowing{
+    margin-top: 30px !important;
+  }
+
+  #aboutsectionparts{
+    margin-top: -10px !important;
+  }
+}

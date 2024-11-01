@@ -1,0 +1,48 @@
+.joingrowingreason{
+  width: 80%;
+  max-width: 850px;
+  border-left: solid 4px rgba(0,0,0,0.1);
+  border-right: solid 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.joingrowingreason > img{
+  height: 50px;
+  margin-right: 30px;
+  opacity: 0.1;
+}
+
+.joingrowingreasontext > h1{
+  font-family: 'Montoserrat';
+  font-weight: bold;
+  font-size: var(--smalltext);
+  margin-top: 0px;
+}
+
+.joingrowingreasontext > p{
+  font-family: 'Montoserrat';
+  font-size: var(--smallertext);
+}
+
+#joingrowingsection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.joingrowing{
+  width: 70%;
+}
+
+#joingrowing{
+  font-size: var(--mediumtext);
+  font-family: 'Montoserrat';
+  font-weight: bold;
+  text-align: center;
+  margin-top: 70px;
+
+}

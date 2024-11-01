@@ -1,0 +1,58 @@
+
+.aboutsectioninner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  background: #ffffff29;
+  border: solid 2px #ffffff3b;
+  padding-top: 30px;
+  border-radius: 45px;
+  margin: 15px;
+}
+
+.aboutsectionpart{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 50px;
+  max-width: 1200px;
+}
+
+.aboutsectionparttitlecont{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 30px black, 0px 0px 30px blue, 0px 0px 30px black;
+}
+
+.aboutsectionparttitlecont > h1{
+  font-family: 'Montoserrat';
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.aboutsectionpartdesccont{
+  font-size: var(--mediumtext);
+  margin-left: 30px;
+  font-family: Helvetica;
+  color: gray;
+  margin-right: 30px;
+  text-shadow: 0px 0px 10px black;
+}
+
+#whatarewephoto{
+  width: 80%;
+  max-width: 500px !important;
+  filter: drop-shadow(0px 0px 14px rgba(255,255,255,1));
+  border: solid 10px white;
+}
+
+#aboutsectionparts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

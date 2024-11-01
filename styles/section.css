@@ -1,0 +1,98 @@
+
+
+.sectiontext{
+  background: linear-gradient(var(--background-zero) 0%, var(--background) 45px);
+  padding-top: 10px;
+  padding-bottom: 100px;
+  /*box-shadow: 0px 0px 30px white;*/
+  width: 100vw;
+  position: relative;
+  bottom: 50px;
+}
+
+.sectionphrase{
+  font-size: var(--biggertext);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+  opacity: 0;
+  /*text-decoration: underline;*/
+  text-decoration-thickness: 3px;
+  text-shadow: 0 0 8px black;
+}
+
+.sectiontitle{
+  font-size: var(--smalltext);
+  font-family: Helvetica;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+
+.sectiontitledesc{
+
+  font-size: var(--mediumtext);
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: rgba(230,230,230);
+  margin-top: 10px;
+
+
+}
+
+
+.sectionbackgroundphoto{
+  z-index: -4;
+  opacity: 1;
+  margin-left: 0px;
+  height: 400px;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.sectionbackgroundphoto > img{
+  position: absolute;
+  transform: translateY(-15%);
+  width: 100%;
+  filter: blur(3px);
+  opacity: 0.4;
+  min-width: 780px;
+}
+
+.section{
+  width: 100%;
+}
+
+.sectionheader{
+  position: relative;
+  top: 40%;
+  font-family: 'Montoserrat';
+  font-weight: bold;
+
+  animation-duration: 3s;
+  animation-name: bobbing;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.45,0,.55,1)
+}
+
+#hennadesign{
+  position: absolute;
+  opacity: 0.05;
+  height: 1300px;
+  right: -210px;
+  user-select: none;
+}
+
+#hennadesign2{
+  position: absolute;
+  opacity: 0.05;
+  height: 1300px;
+  left: -210px;
+  transform: rotate(150deg);
+  user-select: none;
+}

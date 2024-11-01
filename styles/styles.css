@@ -1,0 +1,93 @@
+:root {
+  --background-zero: rgba(50,50,50,0);
+  --background: rgba(50,50,50,255);
+  --secondary: rgba(0,0,180,255);
+  --white: #ffffff;
+}
+
+p, h1, a{
+  color: white;
+}
+
+@font-face {
+  font-family: 'Montoserrat';
+  font-weight: 400;
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Creation';
+  src: url('../fonts/Creattion\ Demo.otf');
+}
+
+
+body{
+  margin: 0px;
+  overflow-x: hidden;
+  opacity: 1;
+  transition: opacity 0s;
+  background: var(--background);
+}
+
+.fadein{
+  opacity: 0;
+  transition: opacity 1s !important;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+@-webkit-keyframes bobbing{
+
+  0%, 100%{
+    transform: translateY(-2.5px);
+  }
+
+  50%{
+    transform: translateY(2.5px);
+  }
+
+}
+
+#discordwidget{
+  box-shadow: 0px 0px 20px rgba(0,0,255);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+
+:root{
+  --hugetext: 50px;
+  --biggertext: 40px;
+  --bigtext: 30px;
+  --mediumtext: 25px;
+  --smalltext: 20px;
+  --smallertext: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  :root{
+    --hugetext: 35px;
+    --bigtext: 20px;
+    --smalltext: 15px;
+  }
+
+  #hennadesign{
+    display: none !important;
+  }
+
+  #hennadesign2{
+    display: none !important;
+  }
+}
