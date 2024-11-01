@@ -1,6 +1,6 @@
 :root {
-  --background-zero: rgba(50,50,50,0);
-  --background: rgba(50,50,50,255);
+  --background-zero: rgba(15,15,35,0);
+  --background: rgba(15,15,35,255);
   --secondary: rgba(0,0,180,255);
   --white: #ffffff;
 }
