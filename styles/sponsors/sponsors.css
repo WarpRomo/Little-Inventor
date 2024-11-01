@@ -1,11 +1,9 @@
 #sponsortypes{
   display: flex;
-  margin: 30px;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 95%;
+  max-width: 1100px;
 }
 
 .sponsortype{
@@ -34,16 +32,8 @@
   text-shadow: 0 0 20px white;
 }
 
-.sponsoropen{
+.sponsortype > h2{
   color: lime;
-  text-align: center;
-  font-family: 'Montoserrat';
-  margin-top: 0px;
-  margin-bottom: 15px;
-}
-
-.sponsorclosed{
-  color: red;
   text-align: center;
   font-family: 'Montoserrat';
   margin-top: 0px;

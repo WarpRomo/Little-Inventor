@@ -1,7 +1,6 @@
 #sponsortext{
   width: 90%;
   position: relative;
-  left: 5%;
   text-align: center;
 }
 
@@ -32,6 +31,13 @@
 .sponsortype> p > a:hover{
   color: lightblue !important;
   background: rgba(255,255,0,0.25)
+}
+
+#sponsorlistcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 900px) {
