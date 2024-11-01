@@ -34,8 +34,16 @@
   text-shadow: 0 0 20px white;
 }
 
-.sponsortype > h2{
+.sponsoropen{
   color: lime;
+  text-align: center;
+  font-family: 'Montoserrat';
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.sponsorclosed{
+  color: red;
   text-align: center;
   font-family: 'Montoserrat';
   margin-top: 0px;
